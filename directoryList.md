@@ -1,9 +1,0 @@
-|-- undefined
-    |-- .gitignore
-    |-- c2t-项目描述-模板.docx
-    |-- LICENSE
-    |-- README.md
-    |-- 壳.gcode
-    |-- server
-        |-- Pipfile
-        |-- Pipfile.lock
