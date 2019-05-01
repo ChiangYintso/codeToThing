@@ -1,7 +1,5 @@
 # codeToThing
 
----
-
 ## TEAM NO. ？？
 
 ## TEAM LEADER
