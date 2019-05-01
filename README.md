@@ -32,7 +32,7 @@
 
 ## Executable Plan (Deadline of each part)
 
-## Directory Structure
+## Directory Tree
 
 ``` plain text
   |-- codeToThing
