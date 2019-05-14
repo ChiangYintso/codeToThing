@@ -1,6 +1,6 @@
 # codeToThing
 
-## TEAM NO. ？？
+## TEAM NO.6
 
 ## TEAM LEADER
 
