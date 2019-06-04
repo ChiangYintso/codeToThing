@@ -4,46 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Code To Thing -- Team No.6</title>
+  <title>Code To Thing -- Team NO.6</title>
 </head>
 <body>
-  <h1>Code To Thing</h1>
-  <h3>Team No.6</h3>
-  <div class="navigation-bar">
-    <ul>
-      <li onclick="clickNavigationBar(this)">Project Description</li>
-      <li onclick="clickNavigationBar(this)">Process of our project</li>
-      <li onclick="clickNavigationBar(this)">About us</li>
-    </ul>
+  <div id="hello">Hello.</div>
+  <div id="priefIntro">
+    We are Team No.6 in class Code To Thing, <br/>
+    which is set up in SWJTU in 2019.
   </div>
-  <a href="./about_us.html">test</a>
-  <script>
-    function clickNavigationBar(dom){
-      dom.innerHTML = "hello";
-    }
-  </script>
+  <div>In this semester, we made a </div>
 </body>
 <style>
-  h1, h3 {
-    text-align: center;
-  }
-  
-  .navigation-bar {
-    margin: auto auto;
-    text-align: center;
-    display: block;
-  }
-  
-  .navigation-bar li {
-    display: inline;
-    margin: 10px 10px 10px 10px;
-    font-size: 28px;
-    text-decoration-line: underline;
+  body {
+    margin: 50px 50px 50px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  .navigation-bar li:hover{
-    color: #737ce6;
-    cursor: pointer;
+  #hello {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
-  </style>
+
+  #priefIntro {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+</style>
 </html>
