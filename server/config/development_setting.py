@@ -1,4 +1,0 @@
-DEBUG = True
-DATABASE_HOST = 'localhost'
-DATABASE_USER = 'root'
-DATABASE_PASSWORD = 'ABCabc123!@#'

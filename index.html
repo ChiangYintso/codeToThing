@@ -1,1 +1,49 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><title>文档</title><link href=./js/app.9dbac130.js rel=preload as=script><link href=./js/chunk-vendors.a985dcde.js rel=preload as=script></head><body><noscript><strong>We're sorry but website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=./js/chunk-vendors.a985dcde.js></script><script src=./js/app.9dbac130.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code To Thing -- Team No.6</title>
+</head>
+<body>
+  <h1>Code To Thing</h1>
+  <h3>Team No.6</h3>
+  <div class="navigation-bar">
+    <ul>
+      <li onclick="clickNavigationBar(this)">foo</li>
+      <li onclick="clickNavigationBar(this)">bar</li>
+      <li onclick="clickNavigationBar(this)">About us</li>
+    </ul>
+  </div>
+  
+  <script>
+    function clickNavigationBar(dom){
+      dom.innerHTML = "hello";
+    }
+  </script>
+</body>
+<style>
+  h1, h3 {
+    text-align: center;
+  }
+  
+  .navigation-bar {
+    margin: auto auto;
+    text-align: center;
+    display: block;
+  }
+  
+  .navigation-bar li {
+    display: inline;
+    margin: 10px 10px 10px 10px;
+    font-size: 28px;
+    text-decoration-line: underline;
+  }
+
+  .navigation-bar li:hover{
+    color: #737ce6;
+    cursor: pointer;
+  }
+  </style>
+</html>
