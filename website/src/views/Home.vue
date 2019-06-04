@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div>hello world</div>
+    <h1>代码到实物</h1>
   </div>
 </template>
 
@@ -11,3 +11,7 @@ export default {
   name: 'home',
 }
 </script>
+
+<style scoped>
+
+</style>
