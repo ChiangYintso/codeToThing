@@ -12,24 +12,63 @@
     We are Team No.6 in class Code To Thing, <br/>
     which is set up in SWJTU in 2019.
   </div>
-  <div>In this semester, we made a </div>
+  <div id="paragraph">
+    In this semester, we made a <a>modified plush toy</a>, 
+    which has some amusing characteristics.<br/>
+    If you want to know more <a href="./about_us.html">about us</a>
+    or <a>how we make it</a>, you can also star<br/>
+    our <a href="https://github.com/ChiangYintso/codeToThing">Github Repo</a>.<br/><br/>
+    Issues and commits are welcomed.
+  </div>
 </body>
 <style>
   body {
-    margin: 50px 50px 50px 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10% 12% 10% 12%;
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    color: #121314;
+  }
+
+  a:after {
+    content: "";
+    background-color: rgba(89, 173, 135, 0.753);
+    position: absolute;
+    left: -0.1em;
+    right: -0.1em;
+    top: 60%;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  a:hover:after {
+    top: 0%;
+  }
+
+  a:hover {
+    cursor: pointer;
   }
 
   #hello {
     font-size: 50px;
     margin-top: 20px;
-    margin-left: 20px;
+    font-weight: 700;
   }
 
   #priefIntro {
     font-size: 30px;
     margin-top: 10px;
-    margin-left: 20px;
+  }
+
+  #paragraph {
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 21px;
+    font-weight: 300;
   }
 </style>
 </html>
