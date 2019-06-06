@@ -7,25 +7,25 @@
   <title>Code To Thing -- Team NO.6</title>
 </head>
 <body>
-  <div id="hello">Hello.</div>
-  <div id="priefIntro">
+  <p id="hello">Hello.</p>
+  <p id="priefIntro">
     We are Team No.6 in class Code To Thing, <br/>
     which is set up in SWJTU in 2019.
-  </div>
-  <div id="paragraph">
+  </p>
+  <p id="paragraph">
     In this semester, we made a <a>modified plush toy</a>, 
     which has some amusing characteristics.<br/>
-    If you want to know more<br/>
-    <a href="./about_us.html">about us</a>
-    or <a>how we make it</a>, you can also star<br/>
-    our <a href="https://github.com/ChiangYintso/codeToThing">Github Repo</a>.<br/><br/>
+    If you want to know more <a href="./about_us.html">about us</a>
+    or <a>process</a> of the project, you can also follow our <a href="https://github.com/ChiangYintso/codeToThing" target="_blank">Github</a> Repo.<br/><br/>
     Issues and commits are welcomed.
-  </div>
+  </p>
 </body>
 <style>
   body {
-    margin: 10% 12% 10% 12%;
+    margin: 10% 10% 10% 12%;
     font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6em;
+    max-width: 26em;
   }
 
   a {
@@ -35,7 +35,7 @@
     color: #121314;
   }
 
-  a:after {
+  a::after {
     content: "";
     background-color: rgba(89, 173, 135, 0.753);
     position: absolute;
@@ -44,10 +44,11 @@
     top: 60%;
     bottom: 0;
     z-index: -1;
+    transition: top 200ms ease 0ms;
   }
 
   a:hover:after {
-    top: 0%;
+    top: 10%;
   }
 
   a:hover {
@@ -62,7 +63,7 @@
 
   #priefIntro {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   #paragraph {
