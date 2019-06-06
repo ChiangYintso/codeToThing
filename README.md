@@ -31,15 +31,3 @@
 基于Arduino开发板，在现有玩偶的基础上改装，利用力传感器、陀螺仪，反馈玩具的受力状态，根据参数开发语音库。
 
 ## Executable Plan (Deadline of each part)
-
-## Directory Tree
-
-``` plain text
-  |-- codeToThing
-      |-- .gitignore
-      |-- c2t-项目描述-模板.docx
-      |-- LICENSE
-      |-- README.md
-      |-- 壳.gcode
-      |-- server----(Python服务端)
-```
