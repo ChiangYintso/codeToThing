@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>毛绒玩具</title>
+</head>
+<body>
+    <h1>改装毛绒玩具</h1>
+    <ul>
+        <li>被人摔打（受力）后，有语言反馈，起到发泄作用;</li>
+        <li>可以根据受力大小和类型不同，发出不同的语音;</li>
+        <li>外表滑稽有趣，质地柔软，摔不坏;</li>
+        <li>可以连接网络，根据流行语自动更新语音库;</li>
+        <li>在闲置时间可以作为微信的终端，自动播放收到语音。</li>
+    </ul>
+    <a href="#" onclick="javascript: history.back(-1);">BACK</a>
+</body>
+<style>
+  body {
+    margin: 7% 10% 5% 10%;
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6em;
+    max-width: 21em;
+  }
+  h1 {
+      font-size: 1.2em;
+  }
+  li {
+      font-size: 0.9em;
+      color: rgb(45, 54, 45);
+      list-style-type: decimal;
+  }
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #121314;
+    position: absolute;
+  }
+  a::after {
+    content: "";
+    background-color: rgba(89, 173, 135, 0.753);
+    position: absolute;
+    left: -0.1em;
+    right: -0.1em;
+    top: 60%;
+    bottom: 0;
+    z-index: -1;
+    transition: top 200ms ease 0ms;
+  }
+
+  a:hover:after {
+    top: 10%;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+</style>
+</html>
